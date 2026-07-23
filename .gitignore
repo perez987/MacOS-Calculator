@@ -6,8 +6,8 @@
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-.AppleDB
-.AppleDesktop
 Temporary Items
 Thumbs.db
+
+*.xcuserstate
+.build/
