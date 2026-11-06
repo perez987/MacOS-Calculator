@@ -21,7 +21,7 @@
    To get started, clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/Guliveer/MacOS-Calculator.git
+   git clone https://github.com/perez987/MacOS-Calculator.git
    ```
 
 2. **Set up the project:**
@@ -30,7 +30,7 @@
 3. **Run the app:**
    Once the project is open in Xcode, press `Cmd + R` to build and run the app on the simulator or a real device.
 
-   ### You can also download by clicking [here](https://github.com/Guliveer/MacOS-Calculator/releases/latest/download/macos-calc-clone.zip) or through the releases section.
+   ### You can also download by clicking [here](https://github.com/perez987/MacOS-Calculator/releases/latest/download/MacOS-Calculator.dmg) or through the releases section.
 
 ## 👁️ Take a quick look
 
