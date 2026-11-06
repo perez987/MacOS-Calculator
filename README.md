@@ -6,6 +6,10 @@
 
 # MacOS-Calculator 🎛️
 
+# Original README
+
+[Guliveer](https://github.com/Guliveer/MacOS-Calculator)
+
 **MacOS-Calculator** is my attempt to clone Apple's macOS calc. The app utilizes SwiftUI technologies, offering a clean and functional design for basic arithmetic operations.
 
 ## ✨ Features
