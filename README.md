@@ -49,7 +49,7 @@ This fork is based on [Guliveer/MacOS-Calculator](https://github.com/Guliveer/Ma
 
 |                     This                      |                          Apple's                          |
 | :-------------------------------------------: | :-------------------------------------------------------: |
-| ![My MacOS Calculator](./screenshots/app.png) | ![Apple's MacOS Calculator](./screenshots/apple_calc.png) |
+| ![My MacOS Calculator](./screenshots/App.png) | ![Apple's MacOS Calculator](./screenshots/Apple-Calc.png) |
 
 See the calculator in action! The "frosted glass" effect gives it a clean and polished look, while the button layout ensures smooth interaction.
 
