@@ -6,6 +6,17 @@
 
 # MacOS-Calculator 🎛️
 
+This fork is based on [Guliveer/MacOS-Calculator](https://github.com/Guliveer/MacOS-Calculator). The main differences are:
+
+- The Xcode project and app source were moved under `Xcode-project/`
+- The app target was updated to version 1.1.0, with Apple Development signing configured and macOS 13.5 set as its deployment target
+- The unit-test and UI-test targets and their test source files were removed
+- Two additional app icon sets were added; existing project and asset files moved with the project
+- The calculator window grew from 400 × 510 to 430 × 550 points
+- The window now has a title and uses the standard title bar instead of a hidden title ba
+- The blur material changed from `contentBackground` to `headerView` for a more transparent appearance.
+- Button colors were moved into named `Color` extensions.
+
 # Original README
 
 [Guliveer](https://github.com/Guliveer/MacOS-Calculator)
