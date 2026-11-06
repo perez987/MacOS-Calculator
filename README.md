@@ -43,7 +43,7 @@ This fork is based on [Guliveer/MacOS-Calculator](https://github.com/Guliveer/Ma
 3. **Run the app:**
    Once the project is open in Xcode, press `Cmd + R` to build and run the app on the simulator or a real device.
 
-   ### You can also download by clicking [here](https://github.com/perez987/MacOS-Calculator/releases/latest/download/MacOS-Calculator.dmg) or through the releases section.
+4. You can also download by clicking [here](https://github.com/perez987/MacOS-Calculator/releases/latest/download/MacOS-Calculator.1.1.0.dmg) or through the releases section.
 
 ## 👁️ Take a quick look
 
