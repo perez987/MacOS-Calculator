@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		26625AA92CEE13E2004C8481 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26625A8F2CEE13DF004C8481 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26625A962CEE13DF004C8481;
-			remoteInfo = "MacOS-Calculator";
-		};
-		26625AB32CEE13E2004C8481 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26625A8F2CEE13DF004C8481 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26625A962CEE13DF004C8481;
-			remoteInfo = "MacOS-Calculator";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		26625A972CEE13DF004C8481 /* MacOS-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOS-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26625AA82CEE13E2004C8481 /* MacOS-CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacOS-CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26625AB22CEE13E2004C8481 /* MacOS-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacOS-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,34 +16,10 @@
 			path = "MacOS-Calculator";
 			sourceTree = "<group>";
 		};
-		26625AAB2CEE13E2004C8481 /* MacOS-CalculatorTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "MacOS-CalculatorTests";
-			sourceTree = "<group>";
-		};
-		26625AB52CEE13E2004C8481 /* MacOS-CalculatorUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "MacOS-CalculatorUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		26625A942CEE13DF004C8481 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26625AA52CEE13E2004C8481 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26625AAF2CEE13E2004C8481 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				26625A992CEE13DF004C8481 /* MacOS-Calculator */,
-				26625AAB2CEE13E2004C8481 /* MacOS-CalculatorTests */,
-				26625AB52CEE13E2004C8481 /* MacOS-CalculatorUITests */,
 				26625A982CEE13DF004C8481 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				26625A972CEE13DF004C8481 /* MacOS-Calculator.app */,
-				26625AA82CEE13E2004C8481 /* MacOS-CalculatorTests.xctest */,
-				26625AB22CEE13E2004C8481 /* MacOS-CalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +70,6 @@
 			productReference = 26625A972CEE13DF004C8481 /* MacOS-Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		26625AA72CEE13E2004C8481 /* MacOS-CalculatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26625ABF2CEE13E2004C8481 /* Build configuration list for PBXNativeTarget "MacOS-CalculatorTests" */;
-			buildPhases = (
-				26625AA42CEE13E2004C8481 /* Sources */,
-				26625AA52CEE13E2004C8481 /* Frameworks */,
-				26625AA62CEE13E2004C8481 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				26625AAA2CEE13E2004C8481 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				26625AAB2CEE13E2004C8481 /* MacOS-CalculatorTests */,
-			);
-			name = "MacOS-CalculatorTests";
-			packageProductDependencies = (
-			);
-			productName = "MacOS-CalculatorTests";
-			productReference = 26625AA82CEE13E2004C8481 /* MacOS-CalculatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		26625AB12CEE13E2004C8481 /* MacOS-CalculatorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26625AC22CEE13E2004C8481 /* Build configuration list for PBXNativeTarget "MacOS-CalculatorUITests" */;
-			buildPhases = (
-				26625AAE2CEE13E2004C8481 /* Sources */,
-				26625AAF2CEE13E2004C8481 /* Frameworks */,
-				26625AB02CEE13E2004C8481 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				26625AB42CEE13E2004C8481 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				26625AB52CEE13E2004C8481 /* MacOS-CalculatorUITests */,
-			);
-			name = "MacOS-CalculatorUITests";
-			packageProductDependencies = (
-			);
-			productName = "MacOS-CalculatorUITests";
-			productReference = 26625AB22CEE13E2004C8481 /* MacOS-CalculatorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +82,6 @@
 				TargetAttributes = {
 					26625A962CEE13DF004C8481 = {
 						CreatedOnToolsVersion = 16.1;
-					};
-					26625AA72CEE13E2004C8481 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 26625A962CEE13DF004C8481;
-					};
-					26625AB12CEE13E2004C8481 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 26625A962CEE13DF004C8481;
 					};
 				};
 			};
@@ -201,28 +100,12 @@
 			projectRoot = "";
 			targets = (
 				26625A962CEE13DF004C8481 /* MacOS-Calculator */,
-				26625AA72CEE13E2004C8481 /* MacOS-CalculatorTests */,
-				26625AB12CEE13E2004C8481 /* MacOS-CalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		26625A952CEE13DF004C8481 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26625AA62CEE13E2004C8481 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26625AB02CEE13E2004C8481 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26625AA42CEE13E2004C8481 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26625AAE2CEE13E2004C8481 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		26625AAA2CEE13E2004C8481 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 26625A962CEE13DF004C8481 /* MacOS-Calculator */;
-			targetProxy = 26625AA92CEE13E2004C8481 /* PBXContainerItemProxy */;
-		};
-		26625AB42CEE13E2004C8481 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 26625A962CEE13DF004C8481 /* MacOS-Calculator */;
-			targetProxy = 26625AB32CEE13E2004C8481 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		26625ABA2CEE13E2004C8481 /* Debug */ = {
@@ -396,18 +252,21 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0110;
 				DEVELOPMENT_ASSET_PATHS = "\"MacOS-Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = ER43ZD2S4U;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Created by Oliwer Pawelski";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "guliveer.MacOS-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -424,94 +283,24 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0110;
 				DEVELOPMENT_ASSET_PATHS = "\"MacOS-Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = ER43ZD2S4U;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Created by Oliwer Pawelski";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "guliveer.MacOS-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		26625AC02CEE13E2004C8481 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ER43ZD2S4U;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "guliveer.MacOS-CalculatorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOS-Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacOS-Calculator";
-			};
-			name = Debug;
-		};
-		26625AC12CEE13E2004C8481 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ER43ZD2S4U;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "guliveer.MacOS-CalculatorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOS-Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacOS-Calculator";
-			};
-			name = Release;
-		};
-		26625AC32CEE13E2004C8481 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ER43ZD2S4U;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "guliveer.MacOS-CalculatorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "MacOS-Calculator";
-			};
-			name = Debug;
-		};
-		26625AC42CEE13E2004C8481 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ER43ZD2S4U;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "guliveer.MacOS-CalculatorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "MacOS-Calculator";
 			};
 			name = Release;
 		};
@@ -532,24 +321,6 @@
 			buildConfigurations = (
 				26625ABD2CEE13E2004C8481 /* Debug */,
 				26625ABE2CEE13E2004C8481 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26625ABF2CEE13E2004C8481 /* Build configuration list for PBXNativeTarget "MacOS-CalculatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26625AC02CEE13E2004C8481 /* Debug */,
-				26625AC12CEE13E2004C8481 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26625AC22CEE13E2004C8481 /* Build configuration list for PBXNativeTarget "MacOS-CalculatorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26625AC32CEE13E2004C8481 /* Debug */,
-				26625AC42CEE13E2004C8481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

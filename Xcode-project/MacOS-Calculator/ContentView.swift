@@ -57,7 +57,7 @@ struct ContentView: View {
                 }
             }
         }
-        .frame(width: 400, height: 510)
+        .frame(width: 430, height: 550)
         .onReceive(NotificationCenter.default.publisher(for: NSApplication.didBecomeActiveNotification)) { _ in
             NSEvent.addLocalMonitorForEvents(matching: .keyDown) { event in
                 if event.type == .keyDown { // Filter only keyDown event
