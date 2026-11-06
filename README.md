@@ -1,13 +1,8 @@
 ![macOS](https://img.shields.io/badge/macOS-white?style=for-the-badge&logo=apple&logoColor=black)
 ![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=xcode&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-33c5ff?style=for-the-badge&logo=swift&logoColor=white)
-<!-- 
 ![GitHub Created At](https://img.shields.io/github/created-at/Guliveer/MacOS-Calculator?style=for-the-badge)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Guliveer/MacOS-Calculator/main?style=for-the-badge&color=blue)
-
-![GitHub Release](https://img.shields.io/github/v/release/Guliveer/MacOS-Calculator?include_prereleases&style=for-the-badge&color=green)
-
-[![GitHub Downloads (specific asset, latest release)](https://img.shields.io/github/downloads/Guliveer/MacOS-Calculator/latest/macos-calc-clone.zip?style=social&logo=GitHub&label=Download%40latest)](https://github.com/Guliveer/MacOS-Calculator/releases/latest/download/macos-calc-clone.zip) -->
 
 # MacOS-Calculator 🎛️
 
