@@ -2,7 +2,7 @@
 ![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=xcode&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-33c5ff?style=for-the-badge&logo=swift&logoColor=white)
 ![GitHub Created At](https://img.shields.io/github/created-at/Guliveer/MacOS-Calculator?style=for-the-badge)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Guliveer/MacOS-Calculator/main?style=for-the-badge&color=blue)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/perez987/MacOS-Calculator/main?style=for-the-badge&color=blue)
 
 # MacOS-Calculator 🎛️
 
